@@ -3,5 +3,5 @@ require 'prime'
 require 'benchmark'
 
 def prime?(integer)
-  {integer.prime?} 
+  integer.prime?
 end
